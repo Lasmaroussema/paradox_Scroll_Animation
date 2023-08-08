@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+}
+.firstpart
+{
+    height: 100vh;
+    background-image: url(./background.png);
+    background-size: 102vh 100vh;
+    overflow: hidden;
+
+}
+.firstpart .header
+{
+    padding: 1%;
+    display: flex;
+}
+.firstpart .header h1
+{
+    color: black;
+    font-size: 80px;
+    position: absolute;
+    top: 5%;
+    left: 41%;
+}
+.firstpart .header nav 
+{
+    position: absolute;
+    top: 5%;
+    left: 72%;
+    z-index: 2;
+}
+.firstpart .header nav a
+{
+    color: white;
+    margin-right: 20px;
+    font-size: 25px;
+    text-decoration:none;
+    cursor: pointer;
+
+}
+.firstpart .header nav a:hover
+{
+   filter: drop-shadow(2px 2px 20px black);
+}
+
+.firstpart .gate-left
+{
+ position: absolute;
+ top: -5%;
+ left: -8%;
+}
+.firstpart .gate-right
+{
+ position: absolute;
+ top: -5%;
+ right: -10%;
+}
+.firstpart .grass
+{
+ position: absolute;
+ bottom: -3%;
+ right: 0%;
+ width: 100%;
+}
+.firstpart .tree-left
+{
+ position: absolute;
+top: 0%;
+}
+.firstpart .tree-right
+{
+ position: absolute;
+ right: 0%;
+ top: 0%;
+}
+
+.contenu
+{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #20232F;
+    flex-direction: column;
+}
+.contenu h3
+{
+    font-size: 40px;
+}
+.contenu p
+{
+    font-size: 25px;
+}
